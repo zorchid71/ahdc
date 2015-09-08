@@ -1,9 +1,9 @@
 <?php
-/* @var $this yii\web\View */
+
+use yii\helpers\Html;
 ?>
-<h1>report/index</h1>
+<h1>หมวดรายงาน กลุ่มแม่และเด็ก</h1>
 
 <p>
-    You may change the content of this page by modifying
-    the file <code><?= __FILE__; ?></code>.
+    <?= Html::a('รายงานฝากครรภ์', ['report/report1']) ?>
 </p>

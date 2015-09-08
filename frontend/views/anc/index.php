@@ -24,8 +24,8 @@ $this->params['breadcrumbs'][] = $this->title;
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
         'panel'=>[
-            'befor'=>'รายงาน xxx',
-            'after'=>'ประมวลผล ณ',  date('Y-m-d H:i:s')
+            'before'=>'รายงาน xxx',
+            'after'=>'ประมวลผล ณ'.  date('Y-m-d H:i:s')
         ],
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
