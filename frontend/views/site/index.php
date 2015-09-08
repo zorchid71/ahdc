@@ -17,7 +17,10 @@ $route2 = Yii::$app->urlManager->createUrl(['test/test2', 'name' => 'สมช�
 <br>
 
 <?=
-yii\helpers\Html::a('แบบที่ 3',['test/test1']);
+yii\helpers\Html::a('แบบที่ 3', ['test/test1']);
 ?>
 <br>
+<?php
+//Yii::$app->db->open(); ทดสอบการติดต่อกับฐานข้อมูล
+?>
 

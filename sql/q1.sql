@@ -1,0 +1,2 @@
+SELECT * from anc
+WHERE DATE_SERV >'2014-10-1'
